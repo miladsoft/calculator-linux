@@ -1,0 +1,17 @@
+{
+  "uuid": "calculator-linux@miladsoft.github.io",
+  "name": "Calculator Linux",
+  "description": "Professional calculator in the GNOME Shell top panel with configurable preferences.",
+  "version": 1,
+  "shell-version": [
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.calculator-linux",
+  "url": "https://github.com/miladsoft/calculator-linux"
+}

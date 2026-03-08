@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.calculator-linux"
+          path="/org/gnome/shell/extensions/calculator-linux/">
+    <key name="panel-display-mode" type="i">
+      <default>0</default>
+      <summary>Panel label mode</summary>
+      <description>0=Icon only, 1=Last result, 2=Current expression.</description>
+    </key>
+
+    <key name="decimal-places" type="i">
+      <default>6</default>
+      <range min="0" max="12"/>
+      <summary>Decimal precision</summary>
+      <description>Maximum number of decimal places for displayed results.</description>
+    </key>
+
+    <key name="history-size" type="i">
+      <default>10</default>
+      <range min="1" max="50"/>
+      <summary>Number of history records</summary>
+      <description>Maximum number of recent calculations saved in history.</description>
+    </key>
+
+    <key name="use-degrees" type="b">
+      <default>true</default>
+      <summary>Use degrees for trig functions</summary>
+      <description>When disabled, trigonometric functions use radians.</description>
+    </key>
+
+    <key name="copy-result-to-clipboard" type="b">
+      <default>false</default>
+      <summary>Copy results automatically</summary>
+      <description>Copy each successful result to the clipboard.</description>
+    </key>
+
+    <key name="clear-on-close" type="b">
+      <default>false</default>
+      <summary>Clear expression when popup closes</summary>
+      <description>Clears the current expression whenever the popup closes.</description>
+    </key>
+  </schema>
+</schemalist>
